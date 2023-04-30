@@ -2,8 +2,6 @@
 1. Созданы 8 виртуальных машин (так как для тестового аккаунта Яндекс это максимальная квота на ВМ без доп запросов), на которые установили инстансы Couchbase:
   * ![image](https://user-images.githubusercontent.com/87138548/235359429-6d28d7a0-7f94-4c22-9338-1a35a9f2848c.png)
 2. Зашли в веб-форму для дальнейшей настройки кластера:
-  * ![image](https://user-images.githubusercontent.com/87138548/235359102-a779cb3a-da6b-4833-acaa-aa142e470283.png)
-  * ![image](https://user-images.githubusercontent.com/87138548/235360147-64e407a0-35a2-4957-9115-1b299ecfe836.png)
   * ![image](https://user-images.githubusercontent.com/87138548/235362166-a209b559-4552-4d86-87b6-334ba1528b56.png)
 3. Создали свой бакет в кластере, указав что данные должны будут копироваться ещё на 3 реплики
   * ![image](https://user-images.githubusercontent.com/87138548/235364637-eeb9ffc4-79df-4503-bb5c-e7bb26c84957.png)
