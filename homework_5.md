@@ -25,7 +25,7 @@
   * ![image](https://user-images.githubusercontent.com/87138548/235488031-78f157eb-4a9e-4b25-9c5e-58be20fc04d5.png)
   * в файл `/etc/clickhouse-server/config.xml` добавлены настройки шардированного кластера "my_test_cluster"
   * ![image](https://user-images.githubusercontent.com/87138548/235498331-310f309f-11e6-4578-91a3-fab12a3cb427.png)
-  * установли паарметр listen_host, чтобы можно было подключаться с других хостов
+  * установли параметр listen_host, чтобы можно было подключаться с других хостов
   * `<listen_host>::</listen_host>`
   * создали на  каждом шарде БД geo_data и таблицу geo_data.cell_towers по аналогии с п.2.
 7. Создали таблицу geo_data.cell_towers_all с движком Distributed на каждом шарде, для выполнения распределенных запросов и загрузили данные из файла cell_towers.csv
